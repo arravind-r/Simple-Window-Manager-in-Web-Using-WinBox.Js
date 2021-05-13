@@ -1,0 +1,26 @@
+/* Main Styling */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+}
+
+.main-container{
+    margin: 2em 4em;
+}
+
+.navbar{
+    background: #ffffff;
+    height: 76px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 6px rgba(33,33,33,0.015);
+    padding: 0.4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .logo{
+        width: 46px;
+    }
+}
