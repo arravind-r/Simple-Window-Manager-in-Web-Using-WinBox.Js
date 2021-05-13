@@ -53,3 +53,38 @@ html {
 .active a {
   color: #f55c47 !important;
 }
+
+.content-wrap {
+  .content {
+    margin-top: 44px;
+
+    p {
+      font-size: 18px;
+      line-height: 1.8em;
+    }
+    button {
+      border: none;
+      padding: 0.9rem 3rem;
+      background: #f55c47;
+      color: #ffffff;
+      font-size: 0.9rem;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 12px;
+    }
+    button:hover,
+    button:focus {
+      background: #f55c47;
+    }
+
+    button:focus {
+      outline: 1px solid rgba(255, 255, 255, 0.2);
+      outline-offset: -4px;
+    }
+
+    button:active {
+      transform: scale(0.99);
+    }
+  }
+}

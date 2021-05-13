@@ -67,4 +67,40 @@ html {
 .active a {
   color: #f55c47 !important;
 }
+
+.content-wrap .content {
+  margin-top: 44px;
+}
+
+.content-wrap .content p {
+  font-size: 18px;
+  line-height: 1.8em;
+}
+
+.content-wrap .content button {
+  border: none;
+  padding: 0.9rem 3rem;
+  background: #f55c47;
+  color: #ffffff;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 12px;
+}
+
+.content-wrap .content button:hover,
+.content-wrap .content button:focus {
+  background: #f55c47;
+}
+
+.content-wrap .content button:focus {
+  outline: 1px solid rgba(255, 255, 255, 0.2);
+  outline-offset: -4px;
+}
+
+.content-wrap .content button:active {
+  -webkit-transform: scale(0.99);
+          transform: scale(0.99);
+}
 /*# sourceMappingURL=style.css.map */
