@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple Window Manager Using WinBox.js</title>
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
-</head>
-<body>
-     <div class="main-container">
-         <div class="navbar">
-             <img class="logo" src="logo.svg" alt="logo">
-             <div class="menu-items">
-                 <ul>
-                     <li>Home</li>
-                     <li>Document</li>
-                     <li>Contact</li>
-                 </ul>
-             </div>
-         </div>
-     </div>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="navbar">
+        <img class="logo" src="logo.svg" alt="logo" />
+        <div class="menu-items">
+          <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Document</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <script src="src/winbox.bundle.js"></script>
     <script src="src/script.js"></script>
-</body>
+  </body>
 </html>
